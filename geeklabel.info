@@ -1,0 +1,17 @@
+
+name = Geek Label
+description = Geek label is a new design agency.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/common.css
+stylesheets[all][] = css/bootstrap.css
+
+scripts[] = js/jquery-1.11.2.min.js
+scripts[] = js/bootstrap.js
+scripts[] = js/custom.js
+
+regions[header] = Header
+regions[content] = Content
+regions[footer] = Footer

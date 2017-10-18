@@ -1,0 +1,86 @@
+body {font-family: 'Roboto', sans-serif;}
+.content p { margin: 0; padding: 0;}
+section br { display: none;}
+.header { background:#d83454; text-align:center; position:relative;}
+.header .logo { margin-top:15%;}
+.header p { color:#fff; font-size:20px; font-weight:300; margin-top:80px;}
+.header .goDown { background:url(../images/downArrow.png) center center no-repeat; width:45px; height:45px; cursor:pointer; position:absolute; left:0; right:0; bottom:45px; margin:auto;}
+.genericSection {background:#f1f2f2; text-align:center; position:relative;}
+.genericSection h4 { font-size:28px; color:#414042; margin-top:60px;}
+.genericSection h4 span { color:#d83454;}
+.genericSection .goDownRed { background:url(../images/downArrowRed.png) center center no-repeat; width:45px; height:45px; cursor:pointer; position:absolute; left:0; right:0; bottom:45px; margin:auto;}
+.genericSection .featured--image { margin-top:8%;}
+
+.serviceSection { background:#fff; text-align: center; position:relative;}
+.serviceSection h2 { font-size:60px; color:#414042; padding:80px 0 0 0;}
+.serviceSection .goDownGray {background:url(../images/downArrowGray.png) center center no-repeat; width:45px; height:45px; cursor:pointer; position:absolute; left:0; right:0; bottom:45px; margin:auto;}
+.serviceSection .serviceSection__list { text-align:center; margin-top:110px;}
+.serviceSection .serviceSection__list li { list-style:none; display:inline-block; padding:0 30px;}
+.serviceSection .serviceSection__list li p { color:#414042; font-size:20px; margin-top:30px;}
+
+.clientSection {background:#f1f2f2; text-align:center; position:relative;}
+.clientSection h2 { font-size:60px; color:#414042; padding:80px 0 0 0;}
+.clientSection .goDownGray {background:url(../images/downArrowGray.png) center center no-repeat; width:45px; height:45px; cursor:pointer; position:absolute; left:0; right:0; bottom:45px; margin:auto;}
+
+
+.mapSection {background:#f1f2f2; text-align:center; position:relative;}
+.mapSection h2 { font-size:60px; color:#414042; padding:80px 0 0 0; margin:0;}
+.mapSection img { margin:40px 0; width:100%;}
+.mapSection .goDownRed {background:url(../images/downArrowRed.png) center center no-repeat; width:45px; height:45px; cursor:pointer; margin:20px auto 0 auto; display:block;}
+
+.cInput { background:#fbfbfb; height:50px; border:2px solid #cccccc; width: 100%; border-radius: 4px;   margin-bottom: 20px; padding:10px; font-size:20px;}
+.cTextarea {background:#fbfbfb; height:50px; border:2px solid #cccccc; width: 100%; border-radius: 4px;   margin-bottom: 20px; height:150px; resize:none; padding:10px; font-size:20px;}
+.cAnch { background:#d83454; border-radius: 4px; color:#fff; font-size:20px; text-align:center; height:50px; width:100%; display:block; line-height:50px;}
+.cAnch:hover { text-decoration:none; color:#fff;}
+.info { color:#414042; font-size:20px; margin:20px 0;}
+
+.contactSection {background:#f1f2f2; text-align:center; position:relative;}
+.contactSection h2 { font-size:60px; color:#414042; padding:80px 0 0 0; margin:0;}
+
+
+/* Boostrap custom css */
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+.row.row-no-gutter {
+    margin: 0
+}
+.row.row-no-gutter .col-centered{
+    float: none;
+    margin: 30px auto;
+}
+.row.row-no-gutter [class*="col-"] {
+    padding: 0
+}
+/* Boostrap custom css */
+
+
+/* media queries */
+@media screen and (max-width: 667px) and (min-width: 320px) {
+.header p,.genericSection h4 { font-size: 30px; padding: 0 30px;}
+.genericSection .featured--image { margin-top: 40%; width: auto; max-width: 260px;}
+.serviceSection h2 {padding: 40px 0 0 0;}
+.serviceSection .serviceSection__list { margin-top: 50px;}
+.serviceSection .serviceSection__list ul { padding: 0;}
+.serviceSection .serviceSection__list li { text-align: left; display: block; margin-bottom: 40px;}
+.serviceSection .serviceSection__list li img { width: auto; max-width: 80px; display: inline-block;}
+.serviceSection .serviceSection__list li p { color: #414042; font-size: 20px; margin-top: 30px; margin-left: 10px; display: inline-block;}
+.mapSection img { width: auto;}
+.contactSection { padding: 0 50px;}
+}
+
+@media screen and (max-width: 885px) and (min-width: 668px) {
+  .header p,.genericSection h4 { font-size: 30px; padding: 0 100px;}
+  .genericSection .featured--image { margin-top: 20%; width: auto; max-width: 340px;}
+  .serviceSection h2 {padding: 40px 0 0 0;}
+  .serviceSection .serviceSection__list { margin-top: 50px;}
+  .serviceSection .serviceSection__list ul { padding: 0;}
+  .serviceSection .serviceSection__list li { text-align: left; display: block; margin-bottom: 40px; padding: 0 200px;}
+  .serviceSection .serviceSection__list li img { width: auto; max-width: 80px; display: inline-block;}
+  .serviceSection .serviceSection__list li p { color: #414042; font-size: 20px; margin-top: 30px; margin-left: 10px; display: inline-block;}
+  .mapSection img { width: auto;}
+  .contactSection { padding: 0 100px;}
+}
+/* media queries */
