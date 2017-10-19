@@ -7,10 +7,12 @@ core = 7.x
 
 stylesheets[all][] = css/common.css
 stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/owl.carousel.min.css
 
 scripts[] = js/jquery-1.11.2.min.js
 scripts[] = js/bootstrap.js
 scripts[] = js/custom.js
+scripts[] = js/owl.carousel.js
 
 regions[header] = Header
 regions[content] = Content
