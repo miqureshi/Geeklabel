@@ -1,4 +1,5 @@
 body {font-family: 'Roboto', sans-serif;}
+.owl-nav { display:none;}
 .content p { margin: 0; padding: 0;}
 section br { display: none;}
 .header { background:#d83454; text-align:center; position:relative;}
