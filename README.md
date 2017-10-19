@@ -5,12 +5,9 @@ Geek label is a new design agency
 - Acquia web
 - Drush for clearing cache
 
-## SASS Compilation
-- Scout App ** http://scout-app.io/ **
-
 ## Theme Structure Created By
 - Sementic HTML5
-- Bootstrap 
+- Bootstrap (Full width edge to edge layout)
 - CSS
 - Custom media queries
 - Owl carousel slider
