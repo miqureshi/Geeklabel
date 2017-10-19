@@ -16,6 +16,7 @@ section br { display: none;}
 .serviceSection .goDownGray {background:url(../images/downArrowGray.png) center center no-repeat; width:45px; height:45px; cursor:pointer; position:absolute; left:0; right:0; bottom:45px; margin:auto;}
 .serviceSection .serviceSection__list { text-align:center; margin-top:110px;}
 .serviceSection .serviceSection__list li { list-style:none; display:inline-block; padding:0 30px;}
+.serviceSection .serviceSection__list li img {}
 .serviceSection .serviceSection__list li p { color:#414042; font-size:20px; margin-top:30px;}
 
 .clientSection {background:#f1f2f2; text-align:center; position:relative;}
@@ -30,7 +31,7 @@ section br { display: none;}
 
 .cInput { background:#fbfbfb; height:50px; border:2px solid #cccccc; width: 100%; border-radius: 4px;   margin-bottom: 20px; padding:10px; font-size:20px;}
 .cTextarea {background:#fbfbfb; height:50px; border:2px solid #cccccc; width: 100%; border-radius: 4px;   margin-bottom: 20px; height:150px; resize:none; padding:10px; font-size:20px;}
-.cAnch { background:#d83454; border-radius: 4px; color:#fff; font-size:20px; text-align:center; height:50px; width:100%; display:block; line-height:50px;}
+.cAnch { background:#d83454; border-radius: 4px; color:#fff; font-size:20px; text-align:center; height:50px; width:100%; display:block; line-height:50px; margin-bottom: 20px;}
 .cAnch:hover { text-decoration:none; color:#fff;}
 .info { color:#414042; font-size:20px; margin:20px 0;}
 
@@ -62,11 +63,11 @@ section br { display: none;}
 .header p,.genericSection h4 { font-size: 30px; padding: 0 30px;}
 .genericSection .featured--image { margin-top: 40%; width: auto; max-width: 260px;}
 .serviceSection h2 {padding: 40px 0 0 0;}
-.serviceSection .serviceSection__list { margin-top: 50px;}
+.serviceSection .serviceSection__list { margin: 50px auto 0 auto; width: calc(100% - 60px);}
 .serviceSection .serviceSection__list ul { padding: 0;}
 .serviceSection .serviceSection__list li { text-align: left; display: block; margin-bottom: 40px;}
 .serviceSection .serviceSection__list li img { width: auto; max-width: 80px; display: inline-block;}
-.serviceSection .serviceSection__list li p { color: #414042; font-size: 20px; margin-top: 30px; margin-left: 10px; display: inline-block;}
+.serviceSection .serviceSection__list li p { color: #414042; font-size: 20px; margin-top: 30px; margin-left: 20px; display: inline-block;}
 .mapSection img { width: auto;}
 .contactSection { padding: 0 50px;}
 }
@@ -75,12 +76,17 @@ section br { display: none;}
   .header p,.genericSection h4 { font-size: 30px; padding: 0 100px;}
   .genericSection .featured--image { margin-top: 20%; width: auto; max-width: 340px;}
   .serviceSection h2 {padding: 40px 0 0 0;}
-  .serviceSection .serviceSection__list { margin-top: 50px;}
+  .serviceSection .serviceSection__list { margin-top: 50px; width: 300px; margin: auto;}
   .serviceSection .serviceSection__list ul { padding: 0;}
-  .serviceSection .serviceSection__list li { text-align: left; display: block; margin-bottom: 40px; padding: 0 200px;}
+  .serviceSection .serviceSection__list li { text-align: left; display: block; margin-bottom: 40px; padding: 0;}
   .serviceSection .serviceSection__list li img { width: auto; max-width: 80px; display: inline-block;}
-  .serviceSection .serviceSection__list li p { color: #414042; font-size: 20px; margin-top: 30px; margin-left: 10px; display: inline-block;}
+  .serviceSection .serviceSection__list li p { color: #414042; font-size: 20px; margin-top: 30px; margin-left: 20px; display: inline-block;}
   .mapSection img { width: auto;}
   .contactSection { padding: 0 100px;}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 886px) {
+.serviceSection .serviceSection__list { margin-top: 90px;}
+.serviceSection .serviceSection__list li img { width: 120px;}
 }
 /* media queries */
