@@ -34,3 +34,6 @@ font-family: 'Roboto', sans-serif;
   
 - jQuery/JavaScript
   - Full page section slides down on mousewheel
+
+- Note
+  Opppss forgot to add client section slider hope this will not affect anything.
