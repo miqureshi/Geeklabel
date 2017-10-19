@@ -36,5 +36,5 @@ font-family: 'Roboto', sans-serif;
   - Full page section slides down on mousewheel
 
 - Note
-  ~~Opppss forgot to add client section slider hope this will not affect anything.~~
-  Later slider added
+  - ~~Opppss forgot to add client section slider hope this will not affect anything.~~
+  - Slider added
